@@ -1,7 +1,7 @@
 ﻿<Window x:Class="QLKS.Doimatkhau"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Doimatkhau" Height="302.985" Width="461.194">
+        Title="Đổi mật khẩu" Height="302.985" Width="461.194">
     <Grid Margin="0,0,0,-4" HorizontalAlignment="Left" Width="451">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="148*"/>

@@ -1,7 +1,7 @@
 ﻿<Window x:Class="QLKS.Sign"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Sign" Height="300" Width="500">
+        Title="Đăng nhập" Height="300" Width="500">
     <Grid>
         <Label Content="Mật Khẩu" HorizontalAlignment="Left" Margin="47,118,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="Tên đăng nhập" HorizontalAlignment="Left" Margin="47,68,0,0" VerticalAlignment="Top" Width="138" FontSize="18"/>
