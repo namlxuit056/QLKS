@@ -6,7 +6,7 @@
         <TabControl HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="800" Margin="0,0,-8,-31">
             <TabItem Header="Hệ thống" FontSize="18">
                 <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" FontSize="16" Width="772">
-                    <Button FontWeight="Normal">
+                    <Button x:Name="bntDangNhap" FontWeight="Normal" Click="bntDangNhap_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Đăng nhập" Height="24" Width="85"/>
                             <Image Source="Icon\sign-in.png"/>
@@ -18,13 +18,13 @@
                             <Image Source="Icon\log-out.png"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntDoiMatKhau" Click="bntDoiMatKhau_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Đổi mật khẩu" Height="24" Width="104" FontWeight="Normal"/>
                             <Image Source="Icon\change_password.png"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntNguoiDung" Click="bntNguoiDung_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Người dùng" Height="24" Width="91" FontWeight="Normal"/>
                             <Image Source="Icon\user.png"/>
@@ -34,37 +34,37 @@
             </TabItem>
             <TabItem Header="Quản lý" FontSize="18">
                 <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" FontSize="16" Width="800" Margin="0,0,-6,0">
-                    <Button FontWeight="Normal">
+                    <Button x:Name="bntKhachhang" FontWeight="Normal" Click="bntKhachhang_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Khách hàng" Height="24" Width="85"/>
                             <Image Source="Icon\customers.png"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntDichvu" Click="bntDichvu_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Dịch vụ" Height="24" Width="57" FontWeight="Normal"/>
                             <Image Source="Icon\service.png"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntPhong" Click="bntPhong_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Phòng" Height="24" Width="44" FontWeight="Normal"/>
                             <Image Source="Icon\room.png"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntPhieuDangki" Click="bntPhieuDangki_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Đăng kí" Height="24" Width="58" FontWeight="Normal"/>
                             <Image Source="Icon\Books.png" Width="37"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntNhanPhong" Click="bntNhanPhong_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Nhận phòng" Height="24" Width="91" FontWeight="Normal"/>
                             <Image Source="Icon\check.png" Width="37"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntTraphong" Click="bntTraphong_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Trả phòng" Height="24" Width="73" FontWeight="Normal"/>
                             <Image Source="Icon\return.png" Width="37"/>
@@ -74,19 +74,19 @@
             </TabItem>
             <TabItem Header="Danh mục" FontSize="18">
                 <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" FontSize="16" Width="772">
-                    <Button FontWeight="Normal">
+                    <Button x:Name="btnThietbi" FontWeight="Normal" Click="btnThietbi_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Thiết bị" Height="24" Width="58"/>
                             <Image Source="Icon\tools.png"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntLoaiphong" Click="bntLoaiphong_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Loại phòng" Height="24" Width="85" FontWeight="Normal"/>
                             <Image Source="Icon\Rooms.png"/>
                         </StackPanel>
                     </Button>
-                    <Button>
+                    <Button x:Name="bntLoaidichvu" Click="bntLoaidichvu_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Loại dịch vụ" Height="24" Width="95" FontWeight="Normal"/>
                             <Image Source="Icon\Tag.png"/>
@@ -101,6 +101,12 @@
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Doanh thu" Height="24" Width="85"/>
                             <Image Source="Icon\chart.png"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="bntDanhsachhoadon" FontWeight="Normal" Click="bntDanhsachhoadon_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Danh sách hóa đơn" Height="24" Width="144"/>
+                            <Image Source="Icon\Books.png"/>
                         </StackPanel>
                     </Button>
                 </ToolBar>
