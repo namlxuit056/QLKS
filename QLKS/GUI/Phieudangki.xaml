@@ -6,8 +6,8 @@
         <Label Content="Mã phiếu thuê" HorizontalAlignment="Left" Margin="91,55,0,0" VerticalAlignment="Top" Width="111" RenderTransformOrigin="0.54,1.554"/>
         <Label Content="Phòng" HorizontalAlignment="Left" Margin="91,127,0,0" VerticalAlignment="Top" Width="111"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="217,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="165"/>
-        <DataGrid HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top" Height="202" Width="472"/>
-        <ToolBar HorizontalAlignment="Left" Margin="249,224,0,0" VerticalAlignment="Top" Width="233" Height="34">
+        <DataGrid HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Height="177" Width="472"/>
+        <ToolBar HorizontalAlignment="Left" Margin="249,249,0,0" VerticalAlignment="Top" Width="233" Height="34">
             <Button>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="Thêm" Height="18" Width="34" FontWeight="Normal"/>
@@ -42,8 +42,10 @@
                 <Image Source="Icon/add.ico"/>
             </DockPanel>
         </Button>
-        <Label Content="Ngày đăng kí" HorizontalAlignment="Left" Margin="91,158,0,0" VerticalAlignment="Top" Width="111"/>
+        <Label Content="Ngày đăng kí" HorizontalAlignment="Left" Margin="91,165,0,0" VerticalAlignment="Top" Width="111"/>
         <DatePicker HorizontalAlignment="Left" Margin="217,167,0,0" VerticalAlignment="Top" Width="165"/>
+        <Label Content="Ngày dự kiến" HorizontalAlignment="Left" Margin="91,214,0,0" VerticalAlignment="Top" Width="111"/>
+        <DatePicker HorizontalAlignment="Left" Margin="217,214,0,0" VerticalAlignment="Top" Width="165"/>
 
     </Grid>
 </Window>
